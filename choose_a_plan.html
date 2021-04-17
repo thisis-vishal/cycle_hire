@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose A Plan</title>
+</head>
+<style>
+    .res-circle {
+        width: 50%;
+        border-radius: 50%;
+        background: teal;
+        line-height: 0;
+        position: relative;
+    }
+
+    .res-circle::after {
+        content: "";
+        display: block;
+        padding-bottom: 100%;
+    }
+
+    .circle-txt {
+        position: absolute;
+        bottom: 50%;
+        width: 100%;
+        text-align: center;
+        font-family: arial, sans-serif;
+        font-weight: bold;
+        color: white;
+        font-size: 50px;
+        ;
+    }
+
+    .tab {
+        margin-left: 10em;
+    }
+
+    .tab2 {
+        margin-right: 5em;
+    }
+
+    .button {
+        border: skyblue;
+        color: gray;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+    }
+
+    .button1 {
+        background-color: white;
+        color: black;
+        border: 2px solid #020105;
+    }
+
+    body,
+    html {
+        height: 100%;
+    }
+
+
+
+    #divleft {
+        float: left;
+    }
+
+    #divright {
+        float: right;
+    }
+</style>
+
+<body>
+
+    <font color="white" size="5" face="timesnewroman">
+        <left>
+            <h1 style="background-color: teal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OFFERS</h1>
+        </left>
+    </font>
+    <br>
+    <div id="divleft">
+        <div class="tab">
+            <div class="res-circle">
+                <div class="circle-txt">Rs.20</div>
+            </div>
+            <font color="black" size="6" align=left>
+                <p>&nbsp;24 HOUR PASS</p>
+            </font>
+            <font size="4" color="dimgrey" face="Arial">
+                <p>With 24 hour pass you can use bicycle <br>services for 24 hr
+                    hire cycle as many time <br>you want be sure to back bicycle<br> under 24 hrs
+                </p>
+            </font>
+            &nbsp;<button class="button button1">Sign Me Up!</button>
+        </div>
+    </div>
+    <div id="divright">
+        <div class="tab2">
+            <div class="res-circle">
+                <div class="circle-txt">Rs.300</div>
+            </div>
+            <font color="black" size="6" align=left>
+                <p>&nbsp; 30 DAYS PASS </p>
+            </font>
+            <font size="4" color="dimgrey" face="Arial">
+                <p>With 30 days pass you can use bicycle <br>services for 30 days
+                    hire cycle as many time <br>you want be sure to back bicycle under 30days
+                </p>
+            </font>
+            &nbsp;<button class="button button1">Sign Me Up!</button>
+        </div>
+    </div>
+    <br>
+</body>
+
+</html>
